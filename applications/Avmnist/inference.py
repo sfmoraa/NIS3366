@@ -69,7 +69,7 @@ def setup_seed(seed):
 setup_seed(args.seed)
 
 traindata, validdata, testdata = get_dataloader(
-        '/home/xucheng/xh/data/Multimedia/avmnist')
+        'applications/Avmnist/avmnist')
 class MMDL(nn.Module):
     """Implements MMDL classifier."""
     

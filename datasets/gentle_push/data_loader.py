@@ -142,7 +142,7 @@ class PushTask():
                 **dataset_args,
             )
         else:
-            return _load_trajectories("/home/xucheng/xh/data/MuJoCo_Push/gentle_push_1000.hdf5", **dataset_args)
+            return _load_trajectories("/home/huangtianhao/xh/data/MuJoCo_Push/gentle_push_1000.hdf5", **dataset_args)
 
     @classmethod
     def get_eval_trajectories(

@@ -1,0 +1,3 @@
+bert-base-uncased/model.onnx
+bert-base-uncased/pytorch_model.bin
+bert-base-uncased/tf_model.h5

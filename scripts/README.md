@@ -38,3 +38,6 @@ Metric: GST efficiency (global store efficiency), Average Value: 89.537280898876
 ## pytorch profiler
 
 运行各文件夹下 inference_profiler.py ，然后用tensorboard查看log即可。
+```
+tensorboard --logdir="/home/huangtianhao/hth/NIS3366/applications/Avmnist/log" --port=6006
+```
